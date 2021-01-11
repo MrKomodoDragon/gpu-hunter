@@ -5,6 +5,8 @@ import sys
 import os
 import smtplib
 import ssl
+import time
+from email.message import EmailMessage
 port = 587  # For starttls
 smtp_server = "smtp.office365.com"
 sender_email = "my@gmail.com"

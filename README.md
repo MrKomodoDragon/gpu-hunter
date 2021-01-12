@@ -59,6 +59,13 @@ This will use launch vim or vi, press `i` to enter insert mode to start editing.
 * * * * * python3 /path/to/stock.py
 ```
 
+### Windows
 
+Follow [this guide](https://datatofish.com/python-script-windows-scheduler/) to schedule the script every minute on windows.
+
+# Todo
+
+ - Add a separate config file
+ - Add support for multiple Urls
 
 

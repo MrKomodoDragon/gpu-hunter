@@ -66,6 +66,6 @@ Follow [this guide](https://datatofish.com/python-script-windows-scheduler/) to 
 # Todo
 
  - Add a separate config file
- - Add support for multiple Urls
+ - Add support for multiple urls so you can track multiple models of the 1660 super, for example. 
 
 

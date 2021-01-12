@@ -44,7 +44,21 @@ So, in a terminal, first run `notify-run register` to get the channel link and s
 
 ## Customizing the Notifications
 
-So, to customize the notifications, just edit `product_name`
+So, to customize the notifications, just edit `product_name`.
+
+## Automating the Checker
+You *could* manually run the script to check the stock, but why not automate it instead?
+
+### Linux and OS X
+
+Run `crontab -e` in the terminal.
+
+This will use launch vim or vi, press `i` to enter insert mode to start editing. Then, add the following line to the bottom of the page:
+
+```
+* * * * * python3 /path/to/stock.py
+```
+
 
 
 

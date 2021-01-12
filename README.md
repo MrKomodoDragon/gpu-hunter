@@ -1,4 +1,4 @@
-# gpu-tracker
+# gpu-stock-tracker
 gpu-tracker is a simple stock tracker to keep track of the stock of GPUs.
 
 # Why was this made?

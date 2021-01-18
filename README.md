@@ -66,6 +66,7 @@ Follow [this guide](https://datatofish.com/python-script-windows-scheduler/) to 
 # Todo
 
  - Add a separate config file
- - ~~Add support for multiple urls so you can track multiple models of the 1660 super, for example.~~ You can simply clone the file for tracking multiple urls. 
+ - Add support for multiple urls so you can track multiple models of the 1660 super, for example.
+    **Update: Support for multiple URLs was added in commit [20dd97e1f33f6796386e9764de34729998454ba3](https://github.com/MrKomodoDragon/gpu-stock-tracker/commit/20dd97e1f33f6796386e9764de34729998454ba3)**
 
 

@@ -6,8 +6,8 @@ import os
 import smtplib
 import ssl
 port = 587  # For starttls
+subject = 'Stock Notification'
 for u in product_urls:
-    subject = 'Stock Notification'
     text = 'The product {} is found in Stock. View it at {}.'.format(product_name, u)
     message = 'Subject: {}\n\n{}'.format(subject, text)
     response = requests.get(u, headers=user_agent)
